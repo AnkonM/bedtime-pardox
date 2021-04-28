@@ -175,7 +175,7 @@ class AboutPage extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 20.0,
+              height: 30.0,
             ),
             Center(
               child: ElevatedButton(
@@ -195,6 +195,17 @@ class AboutPage extends StatelessWidget {
                 },
               ),
             ),
+            SizedBox(
+              height: 30.0,
+            ),
+            Text(
+              "@Ankon M.",
+              style: TextStyle(
+                fontFamily: 'Ubuntu',
+                fontSize: 20.0,
+                color: Colors.grey[100],
+              ),
+            )
           ],
         ),
       ),

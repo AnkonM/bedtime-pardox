@@ -45,7 +45,7 @@ class MainDrawer extends StatelessWidget {
                     height: 20.0,
                   ),
                   Text(
-                    "John Doe",
+                    "Ankon M.",
                     style: TextStyle(
                       fontFamily: 'Ubuntu',
                       fontSize: 18.0,
