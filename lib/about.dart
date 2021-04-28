@@ -158,23 +158,8 @@ class AboutPage extends StatelessWidget {
                         ),
                         iconSize: 69.0,
                         onPressed: () {
-                          return showDialog(
-                              context: context,
-                              builder: (ctx) => AlertDialog(
-                                    title: Text(
-                                      "Coming Soon",
-                                      style: TextStyle(
-                                        fontFamily: 'Ubuntu',
-                                      ),
-                                    ),
-                                    actions: [
-                                      TextButton(
-                                          onPressed: () {
-                                            Navigator.of(ctx).pop();
-                                          },
-                                          child: Text("Ok"))
-                                    ],
-                                  ));
+                          _launchURL(
+                              "https://github.com/BigDaddyMoisture/bedtime-pardox");
                         },
                       ),
                       Text(
